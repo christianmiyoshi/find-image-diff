@@ -1,5 +1,5 @@
 import Image from "../Image";
-import PixelColor from "../Color";
+import PixelColor from "../PixelColor";
 
 const calculateDiffImages = (imageA: Image, imageB: Image, parameters: {diffColor: PixelColor, defaultColor: PixelColor, threshold: number}) => {
     if(!imageA.isSameSize(imageB)){

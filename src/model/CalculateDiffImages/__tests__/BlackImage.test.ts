@@ -1,6 +1,6 @@
 import { calculateDiffImages } from "..";
 import { createBlackImage } from "../../ImageFactory/createBlackImage";
-import PixelColor from "../../Color";
+import PixelColor from "../../PixelColor";
 
 describe("Black color", () => {
     it("can calculate diff", ()=> {

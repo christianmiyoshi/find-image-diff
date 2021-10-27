@@ -1,5 +1,5 @@
 import { createImageFromUint8ClampedArray } from "..";
-import PixelColor from "../../../Color";
+import PixelColor from "../../../PixelColor";
 
 describe("Simple image", () => {
     it("can create a simple image", ()=> {

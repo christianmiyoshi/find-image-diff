@@ -1,4 +1,4 @@
-import PixelColor from "../../Color";
+import PixelColor from "../../PixelColor";
 import Image from "../../Image";
 
 const createBlackImage = (array: number[][]) => {

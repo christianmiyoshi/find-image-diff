@@ -1,4 +1,4 @@
-import PixelColor from "../Color";
+import PixelColor from "../PixelColor";
 
 class Image 
 {

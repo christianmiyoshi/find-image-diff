@@ -1,5 +1,5 @@
 import { createBlackImage } from "..";
-import PixelColor from "../../../Color";
+import PixelColor from "../../../PixelColor";
 
 describe("Black color", () => {
     it("can create a simple image", ()=> {

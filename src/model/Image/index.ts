@@ -4,7 +4,7 @@ class Image
 {
     private _image: PixelColor[][];
     
-    constructor(width: number, height: number)
+    constructor(height: number, width: number)
     {
         this._image = [];
 
@@ -25,6 +25,10 @@ class Image
             return 0;
         }
         return this._image[0].length;
+    }
+
+    public isSameSize(image: Image){
+        return this.height === image.height && this.width === image.width;
     }
 
     public setPixel(x: number, y:number, color: PixelColor)

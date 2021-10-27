@@ -74,5 +74,11 @@ export default class PixelColor {
     public toString(){
         return `(${this.red}, ${this.green}, ${this.blue})`
     }
+
+    public absoluteDiff(color: PixelColor){
+        return Math.abs(this.red - color.red)
+            + Math.abs(this.blue - color.blue)
+            + Math.abs(this.green - color.green);
+    }
 }
 

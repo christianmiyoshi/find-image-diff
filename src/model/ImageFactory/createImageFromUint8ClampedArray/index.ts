@@ -1,8 +1,8 @@
 import PixelColor from "../../Color";
-import Image from "../../image";
+import Image from "../../Image";
 
 const createImageFromUint8ClampedArray = (width: number, height: number, data: Uint8ClampedArray) => {
-    const image = new Image(width, height);
+    const image = new Image(height, width);
     for(var i=0; i<height; i++){
       for(var j=0; j<width; j++){
         const index = (i*width+j)*3;
